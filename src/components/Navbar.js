@@ -6,40 +6,40 @@ const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
   const navItems = [
-    { name: 'Home', href: '#' },
+    { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about-us' },
     { 
       name: 'Homeopathy', 
-      href: '#',
+      href: '/',
       hasDropdown: true,
       dropdownItems: ['Treatment Options', 'Conditions Treated', 'Success Stories']
     },
     { 
       name: 'Hair', 
-      href: '#',
+      href: '/',
       hasDropdown: true,
       dropdownItems: ['Hair Loss Treatment', 'Hair Transplant', 'PRP Therapy']
     },
     { 
       name: 'Laser', 
-      href: '#',
+      href: '/',
       hasDropdown: true,
       dropdownItems: ['Laser Hair Removal', 'Skin Rejuvenation', 'Tattoo Removal']
     },
     { 
       name: 'Skin', 
-      href: '#',
+      href: '/',
       hasDropdown: true,
       dropdownItems: ['Acne Treatment', 'Anti-Aging', 'Skin Brightening']
     },
     { 
       name: 'Facial', 
-      href: '#',
+      href: '/',
       hasDropdown: true,
       dropdownItems: ['Deep Cleansing', 'Hydrafacial', 'Chemical Peel']
     },
-    { name: 'Blog', href: '#' },
-    { name: 'Contact Us', href: '#' }
+    { name: 'Blog', href: '/' },
+    { name: 'Contact Us', href: '/' }
   ];
 
   const toggleDropdown = (itemName) => {
@@ -78,7 +78,7 @@ const Navbar = () => {
                     {item.dropdownItems.map((dropdownItem, index) => (
                       <a
                         key={index}
-                        href="#"
+                        href="/"
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-stone-100 transition duration-200"
                       >
                         {dropdownItem}
@@ -138,7 +138,7 @@ const Navbar = () => {
                     {item.dropdownItems.map((dropdownItem, index) => (
                       <a
                         key={index}
-                        href="#"
+                        href="/"
                         className="block px-8 py-2 text-sm text-gray-700 hover:bg-stone-300 transition duration-200"
                       >
                         {dropdownItem}

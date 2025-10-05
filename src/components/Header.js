@@ -95,16 +95,16 @@ const Header = () => {
 
             {/* Social Media */}
             <div className="flex gap-4">
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+              <a href="/" className="text-gray-600 hover:text-blue-600 transition">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-400 transition">
+              <a href="/" className="text-gray-600 hover:text-blue-400 transition">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-pink-600 transition">
+              <a href="/" className="text-gray-600 hover:text-pink-600 transition">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-700 transition">
+              <a href="/" className="text-gray-600 hover:text-blue-700 transition">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
